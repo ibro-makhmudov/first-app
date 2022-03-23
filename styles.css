@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+
+.programs-table {
+    border: 1px solid red;
+}
+
+.programs-table th, td {
+    border: 1px solid red;
+}
+
+#programs-running th, td {
+    border: 1px solid red;
+}
+
+
+#programs-running {
+    display: flex;
+    flex-direction: row;
+}
+
+.programs-running-line {
+    display: flex;
+    flex-direction: column;
+}

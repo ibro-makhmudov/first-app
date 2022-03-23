@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="configs">
+        <div class="programs">
+            <div class="program">
+                <input type="text" value="Program" name="name" placeholder="name" id="program-name">
+                <input type="number" value="0" name="start" placeholder="start" id="program-start">
+                <input type="number" value="0" name="run" placeholder="run" id="program-run">
+                <input type="number" value="0" name="priority" placeholder="priority" id="program-priority">
+            </div>
+            <button class="add-program">Add program</button>
+        </div>
+        <table id="programs-table">
+            <tr>
+                <th>Name</th>
+                <th>Start</th>
+                <th>Run</th>
+                <th>Priority</th>
+            </tr>
+
+        </table>
+    </div>
+
+    <button id="run-programs">Run</button>
+    <table>
+        <tbody id="programs-running">
+
+        </tbody>
+    </table>
+
+<script src="./script.js"></script>
+
+</body>
+
+
+</html>
